@@ -3,6 +3,13 @@ import 'package:flutter/material.dart';
 const kPrimaryColor = Color(0xff8BC34A);
 const kSecondaryColor = Color(0xFF416188);
 
+const kBigText = TextStyle(
+  fontFamily: 'SFPro',
+  fontWeight: FontWeight.w900,
+  fontSize: 28,
+  color: kSecondaryColor,
+);
+
 const kHeadlineText = TextStyle(
   fontFamily: 'SFPro',
   fontWeight: FontWeight.w600,
