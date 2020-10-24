@@ -44,6 +44,37 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
+  fonts:
+    - family:  Trashure
+      fonts:
+        - asset: assets/fonts/Trashure.ttf
+
+    - family:  SFPro
+      fonts:
+        - asset: assets/fonts/SFPro/FontsFree-Net-SFProDisplay-BoldItalic.ttf
+          style: italic
+          weight: 700
+        - asset: assets/fonts/SFPro/FontsFree-Net-SFProDisplay-LightItalic.ttf
+          style: italic
+          weight: 300
+        - asset: assets/fonts/SFPro/FontsFree-Net-SFProDisplay-MediumItalic.ttf
+          style: italic
+          weight: 400
+        - asset: assets/fonts/SFPro/FontsFree-Net-SFProDisplay-Regular.ttf
+        - asset: assets/fonts/SFPro/FontsFree-Net-SFProDisplay-RegularItalic.ttf
+          style: italic
+        - asset: assets/fonts/SFPro/FontsFree-Net-SFProDisplay-Semibold.ttf
+          weight: 500
+        - asset: assets/fonts/SFPro/FontsFree-Net-SFProDisplay-Thin.ttf
+          weight: 200
+        - asset: assets/fonts/SFPro/FontsFree-Net-SFProDisplay-Ultralight.ttf
+          weight: 100
+        - asset: assets/fonts/SFPro/FontsFree-Net-SFProText-Bold.ttf
+          weight: 900
+        - asset: assets/fonts/SFPro/FontsFree-Net-SFProText-Semibold.ttf
+          weight: 600
+
+
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
