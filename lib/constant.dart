@@ -10,6 +10,27 @@ const kBigText = TextStyle(
   color: kSecondaryColor,
 );
 
+const kPText = TextStyle(
+  fontFamily: 'SFPro',
+  fontWeight: FontWeight.w600,
+  fontSize: 12,
+  color: Colors.white,
+);
+
+const kWalletText = TextStyle(
+  fontFamily: 'SFPro',
+  fontWeight: FontWeight.w900,
+  fontSize: 20,
+  color: Colors.white,
+);
+
+const kHeadBlueText = TextStyle(
+  fontFamily: 'SFPro',
+  fontWeight: FontWeight.w900,
+  fontSize: 20,
+  color: kSecondaryColor,
+);
+
 const kHeadlineText = TextStyle(
   fontFamily: 'SFPro',
   fontWeight: FontWeight.w600,

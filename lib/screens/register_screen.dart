@@ -3,6 +3,7 @@ import 'package:trashure_motion/components/icon_box_button.dart';
 import 'package:trashure_motion/constant.dart';
 import 'package:trashure_motion/components/text_box_field.dart';
 import 'package:trashure_motion/components/password_field.dart';
+import 'package:trashure_motion/screens/home_screen.dart';
 import 'package:trashure_motion/trashure_icons.dart';
 
 class RegisterScreen extends StatefulWidget {
@@ -58,7 +59,12 @@ class _RegisterScreenState extends State<RegisterScreen> {
                 style: kBoldText,
               ),
               color: kPrimaryColor,
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => HomeScreen()),
+                );
+              },
             ),
             SizedBox(
               height: 20,
@@ -92,17 +98,20 @@ class _RegisterScreenState extends State<RegisterScreen> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text(
-                  'Belum punya akun Trashure?',
+                  'Sudah punya akun Trashure?',
                   style: kBlackText,
                 ),
                 SizedBox(width: 5.0),
                 GestureDetector(
                   child: Text(
-                    'DAFTAR',
+                    'MASUK',
                     style: kXSmallText,
                   ),
                   onTap: () {
-                    print('ashiap');
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => HomeScreen()),
+                    );
                   },
                 ),
               ],

@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:trashure_motion/components/password_field.dart';
 import 'package:trashure_motion/components/text_box_field.dart';
 import 'package:trashure_motion/constant.dart';
+import 'package:trashure_motion/screens/home_screen.dart';
+import 'package:trashure_motion/screens/register_screen.dart';
 import 'package:trashure_motion/trashure_icons.dart';
 import 'package:trashure_motion/components/logo_with_text.dart';
 import 'package:trashure_motion/components/icon_box_button.dart';
@@ -69,7 +71,12 @@ class _LoginScreenState extends State<LoginScreen> {
                     style: kBoldText,
                   ),
                   color: kPrimaryColor,
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => HomeScreen()),
+                    );
+                  },
                 ),
                 SizedBox(
                   height: 20,
@@ -113,7 +120,11 @@ class _LoginScreenState extends State<LoginScreen> {
                         style: kXSmallText,
                       ),
                       onTap: () {
-                        print('ashiap');
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => RegisterScreen()),
+                        );
                       },
                     ),
                   ],
